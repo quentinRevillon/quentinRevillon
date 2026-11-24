@@ -6,22 +6,22 @@ Institute & NeuroPoly (spinal cord MRI) and computer vision intern at Synspectiv
 
 ## Selected work
 
+- [**fixed-generator-gan-mnist**](https://github.com/quentinRevillon/fixed-generator-gan-mnist): improving
+  an imposed MNIST GAN generator through training and sampling only (RpGAN + R1, EMA, optimal budgeted
+  rejection sampling). FID from 38.7 to 19.4. Team of 3, Master IASD, 2026.
+- [**collaborative-filtering**](https://github.com/quentinRevillon/collaborative-filtering): movie rating
+  prediction with Bayesian factorization machines (MCMC) stacked with an item kNN. CV RMSE 0.8023, ranked
+  3rd out of 30 teams. Team of 2, Master IASD, 2026.
 - [**sc-crop**](https://github.com/ivadomed/sc-crop): Python package and CLI that detects the spinal cord in
   MRI/CT and crops the volume around it. Main contributor, published on
   [PyPI](https://pypi.org/project/sc-crop/) and integrated into
   [Spinal Cord Toolbox](https://github.com/spinalcordtoolbox/spinalcordtoolbox), where it brings CPU
   segmentation from about 2 min to 10-20 s.
-- [**lv-segmentation-cardiac-mri**](https://github.com/quentinRevillon/lv-segmentation-cardiac-mri):
-  left-ventricle segmentation in cardiac cine MRI (ACDC) with Hough-transform seed detection and region
-  growing, no deep learning. 3D Dice 0.92 at end-diastole on 50 test patients.
-- [**acdc-cardiac-diagnosis**](https://github.com/quentinRevillon/acdc-cardiac-diagnosis): cardiac pathology
-  classification from morphological LV reconstruction and cardiac biomarkers. 88% accuracy on the Kaggle
-  private leaderboard.
 - [**SinGAN**](https://github.com/quentinRevillon/SinGAN): PyTorch re-implementation of SinGAN and a
-  discriminator-free Sliced Wasserstein variant (team of 4, Télécom Paris).
-- [**sar-subaperture-decomposition**](https://github.com/quentinRevillon/sar-subaperture-decomposition):
-  re-implementation of the subaperture decomposition of Ristea et al. (2022) for Sentinel-1 wave-mode SLC
-  imagettes.
+  discriminator-free Sliced Wasserstein variant. Team of 4, Télécom Paris, 2025.
+- [**acdc-cardiac-diagnosis**](https://github.com/quentinRevillon/acdc-cardiac-diagnosis): cardiac pathology
+  classification with random forest and MLP classifiers on cardiac biomarkers. 88% accuracy on the Kaggle
+  private leaderboard. Télécom Paris, 2025.
 
 At Synspective, I trained a SegFormer-B0 to segment meteorological phenomena in SAR ocean imagery; the project
 was selected for JAXA's On-Orbit Demonstration of AI Applications program (code not public).
