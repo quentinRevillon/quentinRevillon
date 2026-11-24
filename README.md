@@ -11,7 +11,6 @@ Institute & NeuroPoly (spinal cord MRI) and computer vision intern at Synspectiv
   [PyPI](https://pypi.org/project/sc-crop/) and integrated into
   [Spinal Cord Toolbox](https://github.com/spinalcordtoolbox/spinalcordtoolbox), where it brings CPU
   segmentation from about 2 min to 10-20 s.
-- [**nnunet-onnx**](https://github.com/quentinRevillon/nnunet-onnx): export nnU-Net v2 checkpoints to ONNX
   and segment NIfTI images with ONNX Runtime and NumPy, without PyTorch.
 - [**lv-segmentation-cardiac-mri**](https://github.com/quentinRevillon/lv-segmentation-cardiac-mri):
   left-ventricle segmentation in cardiac cine MRI (ACDC) with Hough-transform seed detection and region
